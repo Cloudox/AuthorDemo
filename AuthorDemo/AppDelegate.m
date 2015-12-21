@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  AuthorDemo
 //
-//  Created by csdc-iMac on 15/12/21.
+//  Created by Cloudox on 15/12/21.
 //  Copyright (c) 2015年 Cloudox. All rights reserved.
 //
 

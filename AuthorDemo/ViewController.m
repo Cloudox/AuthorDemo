@@ -2,7 +2,7 @@
 //  ViewController.m
 //  AuthorDemo
 //
-//  Created by csdc-iMac on 15/12/21.
+//  Created by Cloudox on 15/12/21.
 //  Copyright (c) 2015年 Cloudox. All rights reserved.
 //
 
@@ -17,6 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+// 获取view点击事件
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    for (UITouch *aTouch in touches) {
+        // 判断点击7次后执行
+        if (aTouch.tapCount > 6 && aTouch.tapCount < 8) {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Created by Cloudox" delegate:self cancelButtonTitle:nil otherButtonTitles:@"确定",nil];
+            [alert show];
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {
