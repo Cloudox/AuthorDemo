@@ -16,7 +16,7 @@
     for (UITouch *aTouch in touches) {
         // 判断点击7次后执行
         if (aTouch.tapCount > 6 && aTouch.tapCount < 8) {
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Created by Cloudox" delegate:self cancelButtonTitle:nil otherButtonTitles:@"确定",nil];
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Hello Cloudox" delegate:self cancelButtonTitle:nil otherButtonTitles:@"确定",nil];
             [alert show];
         }
     }
