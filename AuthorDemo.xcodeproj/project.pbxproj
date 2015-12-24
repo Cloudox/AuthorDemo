@@ -14,7 +14,7 @@
 		ADA2AD781C27E87B00982AF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA2AD771C27E87B00982AF4 /* Images.xcassets */; };
 		ADA2AD7B1C27E87B00982AF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA2AD791C27E87B00982AF4 /* LaunchScreen.xib */; };
 		ADA2AD871C27E87B00982AF4 /* AuthorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA2AD861C27E87B00982AF4 /* AuthorDemoTests.m */; };
-		ADA2AD951C2B795F00982AF4 /* AuthorDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA2AD941C2B795F00982AF4 /* AuthorDemo.png */; };
+		ADA2AD971C2B79AE00982AF4 /* AuthorDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA2AD961C2B79AE00982AF4 /* AuthorDemo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		ADA2AD801C27E87B00982AF4 /* AuthorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA2AD851C27E87B00982AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADA2AD861C27E87B00982AF4 /* AuthorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorDemoTests.m; sourceTree = "<group>"; };
-		ADA2AD941C2B795F00982AF4 /* AuthorDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AuthorDemo.png; sourceTree = "<group>"; };
+		ADA2AD961C2B79AE00982AF4 /* AuthorDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AuthorDemo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				ADA2AD691C27E87B00982AF4 /* AuthorDemo */,
 				ADA2AD831C27E87B00982AF4 /* AuthorDemoTests */,
 				ADA2AD681C27E87B00982AF4 /* Products */,
-				ADA2AD941C2B795F00982AF4 /* AuthorDemo.png */,
+				ADA2AD961C2B79AE00982AF4 /* AuthorDemo.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,7 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA2AD761C27E87B00982AF4 /* Main.storyboard in Resources */,
-				ADA2AD951C2B795F00982AF4 /* AuthorDemo.png in Resources */,
+				ADA2AD971C2B79AE00982AF4 /* AuthorDemo.png in Resources */,
 				ADA2AD7B1C27E87B00982AF4 /* LaunchScreen.xib in Resources */,
 				ADA2AD781C27E87B00982AF4 /* Images.xcassets in Resources */,
 			);
